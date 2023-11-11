@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Song Day 2023"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Song day predictions
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    linkcolour: "#ff33f0"
+    toc: true
+    toc-depth: 3
+    number-sections: TRUE
+    number-depth: 3
+    maintfont: "Verdana"
+
+
+
